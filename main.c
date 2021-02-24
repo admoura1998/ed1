@@ -13,7 +13,7 @@ int verificaQtd(){
     int qtd;
     do{
         scanf("%i", &qtd);
-    }while(qtd > 20 || qtd < 0);
+    }while(qtd > MAX_MATERIAIS || qtd < 0);
 
     return qtd;
 }
